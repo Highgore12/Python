@@ -1,0 +1,11 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLActor</id><coordinates><x>700</x><y>90</y><w>60</w><h>110</h></coordinates><panel_attributes>Actor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>60</y><w>130</w><h>200</h></coordinates><panel_attributes>Lottery
+--
+Rewards[]:List
+--
+_init_()
+get_rewards():str
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>60</y><w>130</w><h>200</h></coordinates><panel_attributes>Main
+--
+lottery:Lottery
+--
+maingui()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>160</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element></diagram>
