@@ -1,0 +1,6 @@
+-- SQLite
+CREATE TABLE dogs (
+   id INTEGER PRIMARY KEY,
+   Name TEXT NOT NULL,
+   Breed TEXT NOT NULL
+);
