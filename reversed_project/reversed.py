@@ -1,19 +1,19 @@
 result_Back = ""
-result_For = ""
+while True:
+    word = input("Word : ").lower()
 
-#Input
-word = input("Word : ").lower()
+    if len(word) >= 2:
 
-#Calculation Backwards
-for Back in reversed(word):
-    result_Back += Back
+        for Back in reversed(word):
+            result_Back += Back
 
-#Calculation Forwards
-for For in (word):
-    result_For += For
-
-#Results
-if result_For == result_Back:
-    print("This IS a Palindrome")
-else:
-    print("This IS NOT a Palindrome")
+        if result_Back == word:
+            print("This IS a Palindrome")
+            break
+        
+        else:
+            print("This IS NOT a Palindrome")
+            break
+        
+    else:
+        print("Please input 2 or more letters.")
